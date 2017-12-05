@@ -95,21 +95,32 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         targetElemNode.physicsBody = physicsBody
         
         sceneView.scene.rootNode.addChildNode(targetElemNode)
-        horizontalAction(node: targetElemNode)
+        roundAction(node: targetElemNode)
     }
     
     func horizontalAction(node: SCNNode) {
-        // let leftAction = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: 0), duration: 3)
-        // let RightAction = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: 0), duration: 3)
+        let leftAction = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: 0), duration: 3)
+        let RightAction = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: 0), duration: 3)
         
-        let quart1Action = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: -1), duration: 3)
-        let quart2Action = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: -1), duration: 3)
-        let quart3Action = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: 1), duration: 3)
-        let quart4Action = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: 1), duration: 3)
+       // let quart1Action = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: -1), duration: 3)
+       // let quart2Action = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: -1), duration: 3)
+       // let quart3Action = SCNAction.move(by: SCNVector3(x: 1, y: 0, z: 1), duration: 3)
+       // let quart4Action = SCNAction.move(by: SCNVector3(x: -1, y: 0, z: 1), duration: 3)
         
-        // let actionSequence = SCNAction.sequence([leftAction, RightAction])
+         let actionSequence = SCNAction.sequence([leftAction, RightAction])
         
-        let actionSequence = SCNAction.sequence([quart1Action, quart2Action, quart3Action, quart4Action])
+        //let actionSequence = SCNAction.sequence([quart1Action, quart2Action, quart3Action, quart4Action])
+        
+        node.runAction(SCNAction.repeatForever(actionSequence))
+    }
+    
+    func roundAction(node: SCNNode) {
+        let upLeft = SCNAction.move(by: SCNVector3(x: 1, y: 1, z: 0), duration: 2)
+        let downRight = SCNAction.move(by: SCNVector3(x: 1, y: -1, z: 0), duration: 2)
+        let downLeft = SCNAction.move(by: SCNVector3(x: -1, y: -1, z: 0), duration: 2)
+        let upRight = SCNAction.move(by: SCNVector3(x: -1, y: 1, z: 0), duration: 2)
+        
+        let actionSequence = SCNAction.sequence([upLeft, downRight, downLeft, upRight])
         
         node.runAction(SCNAction.repeatForever(actionSequence))
     }
