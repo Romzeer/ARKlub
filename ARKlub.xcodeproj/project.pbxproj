@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03555CF1FE92AF200B58F5F /* BasketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03555CE1FE92AF200B58F5F /* BasketController.swift */; };
+		B04F6CBA1FD6B20000041DB4 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F6CB91FD6B20000041DB4 /* HomeController.swift */; };
 		B06BE27A1FD5868C0065ACBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BE2791FD5868C0065ACBC /* AppDelegate.swift */; };
 		B06BE27C1FD5868C0065ACBC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B06BE27B1FD5868C0065ACBC /* art.scnassets */; };
-		B06BE27E1FD5868C0065ACBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BE27D1FD5868C0065ACBC /* ViewController.swift */; };
 		B06BE2811FD5868C0065ACBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06BE27F1FD5868C0065ACBC /* Main.storyboard */; };
 		B06BE2831FD5868C0065ACBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06BE2821FD5868C0065ACBC /* Assets.xcassets */; };
 		B06BE2861FD5868C0065ACBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06BE2841FD5868C0065ACBC /* LaunchScreen.storyboard */; };
 		B06BE2911FD5868C0065ACBC /* ARKlubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BE2901FD5868C0065ACBC /* ARKlubTests.swift */; };
 		B06BE29C1FD5868C0065ACBC /* ARKlubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06BE29B1FD5868C0065ACBC /* ARKlubUITests.swift */; };
+		B091EEA21FD959D700F47FAF /* PaperTossController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EEA11FD959D700F47FAF /* PaperTossController.swift */; };
+		B091EEBB1FDA976800F47FAF /* PlayObjectsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EEBA1FDA976800F47FAF /* PlayObjectsController.swift */; };
+		B091EEBD1FDA979100F47FAF /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EEBC1FDA979100F47FAF /* itemCell.swift */; };
+		B091EEBF1FDAA3B000F47FAF /* PetanqueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091EEBE1FDAA3B000F47FAF /* PetanqueController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B03555CE1FE92AF200B58F5F /* BasketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketController.swift; sourceTree = "<group>"; };
+		B04F6CB91FD6B20000041DB4 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B06BE2761FD5868C0065ACBC /* ARKlub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKlub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06BE2791FD5868C0065ACBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B06BE27B1FD5868C0065ACBC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		B06BE27D1FD5868C0065ACBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B06BE2801FD5868C0065ACBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B06BE2821FD5868C0065ACBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B06BE2851FD5868C0065ACBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		B06BE2971FD5868C0065ACBC /* ARKlubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKlubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06BE29B1FD5868C0065ACBC /* ARKlubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKlubUITests.swift; sourceTree = "<group>"; };
 		B06BE29D1FD5868C0065ACBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B091EEA11FD959D700F47FAF /* PaperTossController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTossController.swift; sourceTree = "<group>"; };
+		B091EEBA1FDA976800F47FAF /* PlayObjectsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayObjectsController.swift; sourceTree = "<group>"; };
+		B091EEBC1FDA979100F47FAF /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		B091EEBE1FDAA3B000F47FAF /* PetanqueController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetanqueController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				B06BE2791FD5868C0065ACBC /* AppDelegate.swift */,
 				B06BE27B1FD5868C0065ACBC /* art.scnassets */,
-				B06BE27D1FD5868C0065ACBC /* ViewController.swift */,
 				B06BE27F1FD5868C0065ACBC /* Main.storyboard */,
 				B06BE2821FD5868C0065ACBC /* Assets.xcassets */,
 				B06BE2841FD5868C0065ACBC /* LaunchScreen.storyboard */,
 				B06BE2871FD5868C0065ACBC /* Info.plist */,
+				B03555CE1FE92AF200B58F5F /* BasketController.swift */,
+				B04F6CB91FD6B20000041DB4 /* HomeController.swift */,
+				B091EEA11FD959D700F47FAF /* PaperTossController.swift */,
+				B091EEBA1FDA976800F47FAF /* PlayObjectsController.swift */,
+				B091EEBC1FDA979100F47FAF /* itemCell.swift */,
+				B091EEBE1FDAA3B000F47FAF /* PetanqueController.swift */,
 			);
 			path = ARKlub;
 			sourceTree = "<group>";
@@ -263,8 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06BE27E1FD5868C0065ACBC /* ViewController.swift in Sources */,
+				B091EEBB1FDA976800F47FAF /* PlayObjectsController.swift in Sources */,
+				B091EEBF1FDAA3B000F47FAF /* PetanqueController.swift in Sources */,
 				B06BE27A1FD5868C0065ACBC /* AppDelegate.swift in Sources */,
+				B03555CF1FE92AF200B58F5F /* BasketController.swift in Sources */,
+				B04F6CBA1FD6B20000041DB4 /* HomeController.swift in Sources */,
+				B091EEBD1FDA979100F47FAF /* itemCell.swift in Sources */,
+				B091EEA21FD959D700F47FAF /* PaperTossController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +451,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25Z9TZJQN8;
+				DEVELOPMENT_TEAM = DMB49X9GSJ;
 				INFOPLIST_FILE = ARKlub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eemi.ARKlub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eemi.ARKlub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,10 +466,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25Z9TZJQN8;
+				DEVELOPMENT_TEAM = DMB49X9GSJ;
 				INFOPLIST_FILE = ARKlub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eemi.ARKlub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eemi.ARKlub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
